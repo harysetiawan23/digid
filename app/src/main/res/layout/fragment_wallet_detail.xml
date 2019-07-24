@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".Fragment.WalletDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/mandiri_1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7f7f7"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Card Info" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Card No" />
+
+        <TextView
+            android:id="@+id/card_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="4259 4500 0000 0000" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="CCV" />
+
+        <TextView
+            android:id="@+id/ccv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="777" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Expired" />
+
+        <TextView
+            android:id="@+id/expired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="07/22" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7f7f7"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Card Owner Info" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="First Name" />
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Prasetyo" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Last Name" />
+
+        <TextView
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Nugraha" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Gender" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Male" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Date Of Birth" />
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="19 August 1997" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="177 A Becker Street" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="London" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanova_regular"
+            android:paddingLeft="22dp"
+            android:paddingTop="6dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="6dp"
+            android:text="111111" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/cardview_dark_background" />
+    </LinearLayout>
+
+</ScrollView>

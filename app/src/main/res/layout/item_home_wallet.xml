@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:id="@+id/cardLayout"
+    android:paddingTop="12dp">
+
+
+    <TextView
+        android:id="@+id/cardTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/proximanova_black"
+        android:text="Driving License "
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/cardImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:elevation="3dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="150dp"
+        android:paddingRight="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mandiri_3" />
+
+    <ImageView
+        android:id="@+id/cardImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_marginTop="-23dp"
+        android:elevation="3dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="150dp"
+        android:paddingRight="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mandiri_2" />
+
+    <ImageView
+        android:id="@+id/cardImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_marginTop="-23dp"
+        android:elevation="3dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="150dp"
+        android:paddingRight="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mandiri_1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="#000"
+        android:elevation="12dp" />
+</LinearLayout>
