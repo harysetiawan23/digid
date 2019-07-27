@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
+import com.example.digids.Fragment.NotificationFragment;
+import com.example.digids.Fragment.UserProfilFragment;
 import com.example.digids.Fragment.UserWalletFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -41,23 +43,21 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         switch (menuItem.getItemId()) {
             case R.id.wallet:
                 toolbar.setTitle("Wallet");
+                loadFragment(new UserWalletFragment());
                 break;
             case R.id.notification:
                 toolbar.setTitle("Notification");
+                loadFragment(new NotificationFragment());
                 break;
             case R.id.profile:
                 toolbar.setTitle("Profile");
+                loadFragment(new UserProfilFragment());
                 break;
         }
         return true;
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.home_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 
     // method untuk load fragment yang sesuai
     private boolean loadFragment(Fragment fragment) {

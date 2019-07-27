@@ -18,7 +18,7 @@ public class WalletDetailCategory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wallet_detail_category);
         Toolbar toolbar  = (Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitle("Category");
+        toolbar.setTitle("Insurance");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -30,11 +30,7 @@ public class WalletDetailCategory extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.wallet_detail_menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+
 
 
     @Override

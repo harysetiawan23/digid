@@ -20,18 +20,18 @@
 
     <ImageView
         android:id="@+id/cardImageView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="85dp"
         android:elevation="3dp"
         android:paddingLeft="12dp"
         android:paddingTop="150dp"
         android:paddingRight="12dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/mandiri_3" />
+        android:src="@drawable/bpjs_1" />
 
     <ImageView
         android:id="@+id/cardImageView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="-23dp"
         android:elevation="3dp"
@@ -39,11 +39,11 @@
         android:paddingTop="150dp"
         android:paddingRight="12dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/mandiri_2" />
+        android:src="@drawable/kip" />
 
     <ImageView
         android:id="@+id/cardImageView3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="-23dp"
         android:elevation="3dp"

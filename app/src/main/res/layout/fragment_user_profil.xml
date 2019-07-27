@@ -3,94 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF"
     android:orientation="vertical"
-    tools:context=".Fragment.WalletDetailFragment">
+    android:background="#FFF"
+    tools:context=".Fragment.UserProfilFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/card_image_view"
-            android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:layout_margin="12dp"
-            android:src="@drawable/kip" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1.2dp"
-            android:background="@color/cardview_dark_background" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#F7f7f7"
-            android:fontFamily="@font/proximanova_bold"
-            android:paddingLeft="22dp"
-            android:paddingTop="6dp"
-            android:paddingRight="22dp"
-            android:paddingBottom="6dp"
-            android:text="Card Info" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1.2dp"
-            android:background="@color/cardview_dark_background" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/proximanova_bold"
-            android:paddingLeft="22dp"
-            android:paddingTop="6dp"
-            android:paddingRight="22dp"
-            android:paddingBottom="6dp"
-            android:text="Card No" />
-
-        <TextView
-            android:id="@+id/card_no"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/proximanova_regular"
-            android:paddingLeft="22dp"
-            android:paddingTop="6dp"
-            android:paddingRight="22dp"
-            android:paddingBottom="6dp"
-            android:text="4259 4500 0000 0000" />
-
-
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.8dp"
-            android:background="@color/cardview_dark_background" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/proximanova_bold"
-            android:paddingLeft="22dp"
-            android:paddingTop="6dp"
-            android:paddingRight="22dp"
-            android:paddingBottom="6dp"
-            android:text="Expired" />
-
-        <TextView
-            android:id="@+id/expired"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/proximanova_regular"
-            android:paddingLeft="22dp"
-            android:paddingTop="6dp"
-            android:paddingRight="22dp"
-            android:paddingBottom="6dp"
-            android:text="07/22" />
-
-
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/jhon_doe"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
 
         <View
             android:layout_width="match_parent"
@@ -301,6 +232,6 @@
             android:layout_width="match_parent"
             android:layout_height="0.8dp"
             android:background="@color/cardview_dark_background" />
-    </LinearLayout>
 
+    </LinearLayout>
 </ScrollView>

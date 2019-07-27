@@ -32,20 +32,20 @@ public class HomeCardFragmentAdapter extends RecyclerView.Adapter<HomeCardFragme
             holder.cardImageView3.setVisibility(View.GONE);
             holder.setCardTitle("Passport");
         } else if (position == 1) {
-            holder.setCardImageView1(R.drawable.bca_1);
-            holder.setCardImageView2(R.drawable.bca_2);
+            holder.setCardImageView1(R.drawable.kip);
+            holder.setCardImageView2(R.drawable.kks_1);
             holder.cardImageView3.setVisibility(View.GONE);
-            holder.setCardTitle("BCA Debit Card");
+            holder.setCardTitle("Insurance");
         } else if (position == 2) {
-            holder.setCardImageView1(R.drawable.mandiri_1);
-            holder.setCardImageView2(R.drawable.mandiri_2);
-            holder.setCardImageView3(R.drawable.mandiri_3);
-            holder.setCardTitle("Mandiri Credit Card");
+            holder.setCardImageView1(R.drawable.member_2);
+            holder.setCardImageView2(R.drawable.member_1);
+            holder.setCardImageView3(R.drawable.starbuck_member);
+            holder.setCardTitle("Member Card");
         } else if (position == 3) {
-            holder.setCardImageView1(R.drawable.card_3);
-            holder.setCardImageView2(R.drawable.card_5);
+            holder.setCardImageView1(R.drawable.kip_2);
+            holder.setCardImageView2(R.drawable.bpjs_1);
             holder.cardImageView3.setVisibility(View.GONE);
-            holder.setCardTitle("USA Bank Credit Card");
+            holder.setCardTitle("National Programs");
         }
 
 
